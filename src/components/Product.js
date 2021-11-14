@@ -47,7 +47,7 @@ export default function Product() {
                   <Card.Text>
                    {pro.price}
                   </Card.Text>
-                  <Button variant="primary" onClick={()=>addCart(pro.id)}>Add Cart</Button>
+                  <Button variant="primary" onClick={()=>addCart(pro.pid)}>Add Cart</Button>
                 </Card.Body>
               </Card>
                     </Col>
